@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-Nexjs-WebAdapter"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-b3vqvjtcflsz"
+s3_prefix = "sam-Nexjs-WebAdapter"
+region = "ap-southeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["NextjsFunction=838928449797.dkr.ecr.ap-southeast-1.amazonaws.com/samnexjswebadapter5244da4b/nextjsfunction032c9ef3repo"]
